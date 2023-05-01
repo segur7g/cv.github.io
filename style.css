@@ -25,6 +25,8 @@ footer a:hover {
 }
 .summary img {
     float: right;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 h2 {
     color: #2F5A78;
