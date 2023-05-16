@@ -107,8 +107,10 @@ input[type='submit'] {
   color: white;
   margin-bottom: 7px;
 } 
-input[type="submit"].clicked {
-  background-color: green;
-  color: white;
+@keyframes button-color {
+  from { background-color: #008000; }
+  to { background-color: #00ff00; }
 }
-
+input[type="submit"].clicked {
+  animation: button-color 2s forwards;
+}
