@@ -58,9 +58,13 @@
       <script>
         const submitButton = document.querySelector('input[type="submit"]');
 
-submitButton.addEventListener('click', function() {
-  submitButton.classList.add('clicked');
-});
+        submitButton.addEventListener('click', function() {
+          submitButton.classList.add('clicked');
+
+          setTimeout(function() {
+            submitButton.classList.remove('clicked');
+          }, 2000);
+        });
 
       const form = document.getElementById('contact-form');
 
