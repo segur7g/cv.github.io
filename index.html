@@ -56,6 +56,12 @@
 
         <script src="https://cdn.sendgrid.com/api/v3/js/sendgrid.min.js"></script>
       <script>
+        const submitButton = document.querySelector('input[type="submit"]');
+
+submitButton.addEventListener('click', function() {
+  submitButton.classList.add('clicked');
+});
+
       const form = document.getElementById('contact-form');
 
       form.addEventListener('submit', function (event) {
