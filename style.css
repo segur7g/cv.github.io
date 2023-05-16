@@ -107,7 +107,8 @@ input[type='submit'] {
   color: white;
   margin-bottom: 7px;
 } 
-.clicked {
-  background-color: red;
+input[type="submit"].clicked {
+  background-color: green;
+  color: white;
 }
 
