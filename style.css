@@ -112,3 +112,6 @@ input[type="submit"].clicked {
   color: white;
 }
 
+#sololearn {
+  transform: scale(0.1);
+}
