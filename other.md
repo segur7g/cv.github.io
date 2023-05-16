@@ -1,4 +1,16 @@
 
+    <section>
+      <h2>Contact Form</h2>
+      <form id="contact-form">
+        <label for="name">Name: </label>
+          <input placeholder="Name" id="name" type="text" /><br>
+        <label for="email">Email: </label>
+          <input placeholder="Email" id="email" type="email" /><br>
+        <textarea placeholder="Message"></textarea><br>
+          <input type="submit" value="SEND">
+      </form>
+    </section>
+
 
         <script src="https://cdn.sendgrid.com/api/v3/js/sendgrid.min.js"></script>
       <script>
